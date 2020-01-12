@@ -6,7 +6,7 @@ let firstName = "Sam";
 let lastName = " Wilson";
 let age = 30; //number literal
 let isApproved = true; //boolean literal
-let middleName = null;
+let middleName = null; // explicitly clear value of variable
 
 console.log(firstName + lastName);
 
