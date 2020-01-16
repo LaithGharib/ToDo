@@ -1,12 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//JSX
-ReactDOM.render(
-  <ul>
-    <li>Buy Juice</li>
-    <li>Walk Dog</li>
-    <li>Laith</li>
-  </ul>,
-  document.getElementById("root")
-);
+import MyInfo from "../Components/MyInfo.js/index.js";
+
+ReactDOM.render(<MyInfo />, document.getElementById("root"));
