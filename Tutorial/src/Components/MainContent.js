@@ -3,12 +3,10 @@ import React from "react";
 function MainContent() {
   return (
     <div>
-      <h1>
-        <u>Things I hate</u>
-      </h1>
-      <ui>
-        <li>Peas</li>
-      </ui>
+      <p className="mango">
+        <input type="checkbox" />
+        Line
+      </p>
     </div>
   );
 }

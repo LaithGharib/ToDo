@@ -1,5 +1,6 @@
 body {
-  background-color: lightblue;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -10,4 +11,29 @@ h1 {
 p {
   color: rgb(100, 1, 1);
   margin-left: 20px;
+}
+
+.navbar {
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: centre;
+  font-style: 30px;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mango {
+  display: flex;
+  color: black;
+}
+
+.footnote {
+  color: red;
+  font-size: small;
+  height: 100px;
+  margin-bottom: 300px;
 }

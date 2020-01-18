@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "./Header.js";
-import MainContent from "./MainContent.js";
-import Footer from "./Footer.js";
+
+import Header from "./Header";
+import MainContent from "./MainContent";
+import Footer from "./Footer";
+import Name from "./Name";
 
 function App() {
   return (
     <div>
       <Header />
+      <Name />
+      <MainContent />
+      <MainContent />
+      <MainContent />
       <MainContent />
       <Footer />
     </div>

@@ -1,7 +1,12 @@
 import React from "react";
 
+//JSX
 function Header() {
-  return <h1>My WESBITE</h1>;
+  return (
+    <div>
+      <header className="navbar">Welcome to MaSa</header>;
+    </div>
+  );
 }
 
 export default Header;
